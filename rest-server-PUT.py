@@ -22,37 +22,44 @@ import jsonpickle
 import json
 import sys
 import io
+import gcloud
 
 # Initialize the Flask application
 app = Flask(__name__)
 
 # route http posts to this method
 @app.route('/api/json_put_request', methods=['POST'])
-def test():
-
-    # Get the request
-    r = request
-    # convert the data to a PIL image type so we can extract dimensions
+def post_data_to_gcp():
+    data = request.data    # Get the request
     try:
-        ioBuffer = io.BytesIO(r.data)
-        img = Image.open(ioBuffer)
-    # build a response dict to send back to client
-        response = {
-            'width' : img.size[0],
-            'height' : img.size[1]
-            }
+        # Decode the data
+        jsonpickle.decode(data)
+
+        # Store the file a GCP file storage bucket as a .json file
+
+
+        # Store the data in a GCP database
+
+
+        response = 0    # Success
     except:
-        response = { 'width' : 0, 'height' : 0}
+        response = 1    # Failure
+
     # encode response using jsonpickle
     response_pickled = jsonpickle.encode(response)
 
+    # Return the response
     return Response(response=response_pickled, status=200, mimetype="application/json")
 
 # start flask app
 app.run(host="0.0.0.0", port=5000)
 
 
+def store_file_in_GCP_storage():
+    raise NotImplementedError
 
+def store_data_in_GCP_database():
+    raise NotImplementedError
 
 
 

@@ -19,7 +19,7 @@ import sys
 
 # Define the main parameters
 addr = "http://localhost:5000/api/json_put_request"
-filename = "test.json"
+filename = "example_data.json"
 
 # Read in the data to be sent
 json_data = open(filename).read()

@@ -1,0 +1,35 @@
+-- add_energy_tables.sql
+-- Author: Jon Oulton
+-- Date: 10/28/19
+
+DROP TABLE IF EXISTS electric CASCADE;
+CREATE TABLE electric (
+	electric_id SERIAL UNIQUE NOT NULL,
+	usage INT NOT NULL,
+	dt TIMESTAMP NOT NULL,
+	PRIMARY KEY(electric_id)
+);
+
+DROP TABLE IF EXISTS gas CASCADE;
+CREATE TABLE gas (
+	gas_id SERIAL UNIQUE NOT NULL,
+	usage INT NOT NULL,
+	dt TIMESTAMP NOT NULL,
+	PRIMARY KEY(gas_id)
+);
+
+DROP TABLE IF EXISTS wind CASCADE;
+CREATE TABLE wind (
+	wind_id SERIAL UNIQUE NOT NULL,
+	usage INT NOT NULL,
+	dt TIMESTAMP NOT NULL,
+	PRIMARY KEY(wind_id)
+);
+
+DROP TABLE IF EXISTS solar CASCADE;
+CREATE TABLE solar (
+	solar_id SERIAL UNIQUE NOT NULL,
+	usage INT NOT NULL,
+	dt TIMESTAMP NOT NULL,
+	PRIMARY KEY(solar_id)
+);

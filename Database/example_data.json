@@ -1,0 +1,23 @@
+{
+	"type": "electric",
+	"datetime": "12:00 10/21/19",
+	"usage": 25
+}
+
+{
+	"type": "gas",
+	"datetime": "12:00 10/21/19",
+	"usage": 25
+}
+
+{
+	"type": "wind",
+	"datetime": "12:00 10/21/19",
+	"usage": 25
+}
+
+{
+	"type": "solar",
+	"datetime": "12:00 10/21/19",
+	"usage": 224
+}
