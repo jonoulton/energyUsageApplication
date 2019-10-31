@@ -1,14 +1,12 @@
-#! /Users/jon/anaconda3/bin/python3
-
-import time
+import config
 import psycopg2
 
 
 class DatabaseClient:
     def __init__(self, host="127.0.0.1"):
-        self.dbname = "postgres"
-        self.user = "postgres"
-        self.password = "energy"
+        self.dbname = config.DB_NAME
+        self.user = config.DB_USER
+        self.password = config.DB_PASSWORD
         self.host = host
         self.connection = psycopg2.connect(dbname=self.dbname,
                                            user=self.user,
@@ -117,36 +115,6 @@ class DatabaseClient:
         self.cursor.execute(postgres_select_query)
         for row in self.cursor.fetchall():
             print(row)
-
-
-# Make tables
-
-
-
-#
-# postgres_insert_query = """INSERT INTO electric (usage, dt) VALUES (%s, TO_TIMESTAMP(%s, 'HH24:MI MM/DD/YYYY'))"""
-# record_to_insert = (25, '12:00 10/21/19')
-# cursor.execute(postgres_insert_query, record_to_insert)
-# record_to_insert = (23, '12:00 10/21/19')
-# cursor.execute(postgres_insert_query, record_to_insert)
-# record_to_insert = (53, '12:00 10/21/19')
-# cursor.execute(postgres_insert_query, record_to_insert)
-# record_to_insert = (23, '12:00 10/21/19')
-# cursor.execute(postgres_insert_query, record_to_insert)
-# record_to_insert = (15, '12:00 10/21/19')
-# cursor.execute(postgres_insert_query, record_to_insert)
-#
-# #
-# connection.commit()
-# count = cursor.rowcount
-# print(count, "Record inserted successfully into mobile table")
-#
-# cursor.execute("SELECT * FROM electric")
-# for item in cursor.fetchall():
-#     print(item)
-#
-# for i in range(60):
-#     time.sleep(1)
 
 """
 # TRAEFIK
