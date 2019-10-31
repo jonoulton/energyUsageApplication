@@ -5,6 +5,7 @@ import json
 DB_NAME = "postgres"
 DB_USER = "postgres"
 DB_PASSWORD = "energy"
+DB_ADDRESS = "127.0.0.1"
 
 # General GCP Authentication
 GCP_CREDENTIALS_FILE = "/Users/jon/Desktop/energyusageapplication-962af9407bfb.json"

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d13f65e-cc6f-4db7-b7d9-7552f5302f48" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ubuntu_startup.sh" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/rest-server.py" afterPath="$PROJECT_DIR$/rest-server.py" />
-    </list>
+    <list default="true" id="6d13f65e-cc6f-4db7-b7d9-7552f5302f48" name="Default" comment="" />
     <ignored path="config.py" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,17 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="database_setup.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Database/Older_Files/database_setup.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseClient.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DatabaseClient.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Database/DatabaseClient.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -51,8 +37,8 @@
       <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+            <state relative-caret-position="105">
+              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -70,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rest-server.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rest-server.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rest-server.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="499">
@@ -126,7 +112,6 @@
         <option value="$PROJECT_DIR$/database_data_entry_test.py" />
         <option value="$PROJECT_DIR$/database_setup.sh" />
         <option value="$PROJECT_DIR$/storage_example.py" />
-        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/Database/database_data_entry_test.py" />
         <option value="$PROJECT_DIR$/rest-server-PUT.py" />
         <option value="$PROJECT_DIR$/rest-client-PUT.py" />
@@ -138,6 +123,7 @@
         <option value="$PROJECT_DIR$/rest-client.py" />
         <option value="$PROJECT_DIR$/ubuntu_startup.sh" />
         <option value="$PROJECT_DIR$/rest-server.py" />
+        <option value="$PROJECT_DIR$/config.py" />
       </list>
     </option>
   </component>
@@ -455,24 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/DatabaseClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Storage/StorageClient.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -484,14 +452,6 @@
             <element signature="e#750#995#0" expanded="false" />
             <element signature="e#1047#1626#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Database/Older_Files/database_setup.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -520,6 +480,32 @@
           <folding>
             <element signature="e#579#588#0" expanded="true" />
             <element signature="e#2270#2381#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/Older_Files/database_setup.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/DatabaseClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
