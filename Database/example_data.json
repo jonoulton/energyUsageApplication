@@ -1,23 +1,22 @@
 {
-	"type": "electric",
-	"datetime": "12:00 10/21/19",
-	"usage": 25
-}
-
-{
-	"type": "gas",
-	"datetime": "12:00 10/21/19",
-	"usage": 25
-}
-
-{
-	"type": "wind",
-	"datetime": "12:00 10/21/19",
-	"usage": 25
-}
-
-{
-	"type": "solar",
-	"datetime": "12:00 10/21/19",
-	"usage": 224
+  "data0": {
+    "type": "electric",
+    "dt": "23:00 10/21/19",
+    "usage": 25
+  },
+  "data1": {
+    "type": "gas",
+    "dt": "23:00 10/21/19",
+    "usage": 25
+  },
+  "data2": {
+    "type": "wind",
+    "dt": "23:00 10/21/19",
+    "usage": 25
+  },
+  "data3": {
+    "type": "solar",
+    "dt": "23:00 10/21/19",
+    "usage": 224
+  }
 }

@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# This file starts the cloud proxy and tests the database creation and upload some test data
+
 ./cloud_sql_proxy -dir=\cloudsql -instances=energyusageapplication:us-west1:energy-usage-psql-database=tcp:5432 -credential_file=/Users/jon/Desktop/energyusageapplication-962af9407bfb.json &
 echo "Sleeping for 5 seconds"
 sleep 5

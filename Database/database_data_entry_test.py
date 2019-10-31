@@ -23,6 +23,7 @@ usages = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 dataDict['type'] = 'electric'
 
 for i in range(100):
+    print("Uploading random data #{}/100".format(i))
     dataDict[i] = dict()
     dataDict[i]['type'] = random.choice(types)
     dataDict[i]['dt'] = datetime

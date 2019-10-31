@@ -1,9 +1,10 @@
-import sys
+import os
 import json
 import config
 import datetime
 from gcloud import storage
 from oauth2client.service_account import ServiceAccountCredentials
+
 
 class StorageClient:
     def __init__(self):
@@ -34,7 +35,7 @@ class StorageClient:
         :return: None
         """
         # Define the file name
-        temp_filename = "TEMPORARY_FILE_NAME.txt"
+        temp_filename = dataDict['type']
 
         # Create the temporary file locally
         with open(temp_filename, 'w') as outfile:
@@ -44,4 +45,4 @@ class StorageClient:
         self.upload_existing_file(temp_filename)
 
         # Remove the temporary file
-        sys.path.remove(temp_filename)
+        os.remove(temp_filename)
