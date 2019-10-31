@@ -25,7 +25,11 @@ class ClientApp:
     def __init__(self, file_to_send="Database/example_data.json"):
         self.file_to_send_as_CLA = False
         self.server_address_as_CLA = False
-        self.server_address = "http://localhost:5000/api/json_post_data_request"
+        self._get_arguments()
+        self.addr = "localhost"
+        if self.server_address_as_CLA:
+            self.addr = sys.argv[0]
+        self.server_address = "http://" + self.addr + ":5000/api/json_post_data_request"
         self.file_to_send = file_to_send
 
     def _get_arguments(self):
@@ -40,12 +44,12 @@ class ClientApp:
         Note: Server_rest_address should be JUST the IP address
         :return:
         """
-        raise NotImplementedError
-        # args = sys.argv
-        # if len(args) == 0:
-        #     return "localhost"
-        # if len(args) == 1:
-        #     return
+        args = sys.argv
+        if len(args) == 0:
+            return "localhost"
+        if len(args) == 1:
+            return sys.argv[0]
+        self.server_address_as_CLA = True
 
     def client_main(self):
         # Read in the data to be sent
