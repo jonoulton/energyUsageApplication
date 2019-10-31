@@ -26,9 +26,7 @@ class ClientApp:
         self.file_to_send_as_CLA = False
         self.server_address_as_CLA = False
         self._get_arguments()
-        self.addr = "localhost"
-        if self.server_address_as_CLA:
-            self.addr = sys.argv[0]
+        self.addr = sys.argv[1]
         self.server_address = "http://" + self.addr + ":5000/api/json_post_data_request"
         self.file_to_send = file_to_send
 
