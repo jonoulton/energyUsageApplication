@@ -38,7 +38,8 @@ if DEVELOPMENT:
 def post_data_to_gcp():
     data = request.data    # Get the request
 
-    print(data)
+    data = data.decode("utf-8")
+
     # Decode the data
     jsonDataDict = jsonpickle.decode(data)
     response = []

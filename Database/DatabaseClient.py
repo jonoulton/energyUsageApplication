@@ -3,7 +3,7 @@ import psycopg2
 
 
 class DatabaseClient:
-    def __init__(self, host="127.0.0.1"):
+    def __init__(self, host=config.DB_ADDRESS):
         self.dbname = config.DB_NAME
         self.user = config.DB_USER
         self.password = config.DB_PASSWORD

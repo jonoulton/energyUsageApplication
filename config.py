@@ -2,10 +2,10 @@
 DB_NAME = "postgres"
 DB_USER = "postgres"
 DB_PASSWORD = "energy"
-DB_ADDRESS = "127.0.0.1"
+DB_ADDRESS = "10.88.64.3"
 
 # General GCP Authentication
-GCP_CREDENTIALS_FILE = "/Users/jon/Desktop/energyusageapplication-962af9407bfb.json"
+GCP_CREDENTIALS_FILE = "energyusageapplication-962af9407bfb.json"
 GCP_PROJECT = "energyusageapplication"
 
 # For Storage
