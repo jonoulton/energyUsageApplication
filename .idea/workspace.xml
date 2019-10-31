@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6d13f65e-cc6f-4db7-b7d9-7552f5302f48" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/rest-client.py" afterPath="$PROJECT_DIR$/rest-client.py" />
+      <change beforePath="$PROJECT_DIR$/rest-server.py" afterPath="$PROJECT_DIR$/rest-server.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,8 +49,8 @@
       <file leaf-file-name="rest-client.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rest-client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+            <state relative-caret-position="648">
+              <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
               <folding>
                 <element signature="e#399#409#0" expanded="true" />
               </folding>
@@ -506,8 +507,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rest-client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        <state relative-caret-position="648">
+          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
           <folding>
             <element signature="e#399#409#0" expanded="true" />
           </folding>

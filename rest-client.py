@@ -45,10 +45,10 @@ class ClientApp:
         :return:
         """
         args = sys.argv
-        if len(args) == 0:
-            return "localhost"
         if len(args) == 1:
-            return sys.argv[0]
+            return "localhost"
+        if len(args) == 2:
+            return sys.argv[1]
         self.server_address_as_CLA = True
 
     def client_main(self):
