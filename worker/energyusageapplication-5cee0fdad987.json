@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "energyusageapplication",
+  "private_key_id": "5cee0fdad9870a39e1747f6ca84e8e7150650117",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/M46fIuw2QsyV\nDe2/HGEVKHn7Aq/C1EYszLUDqyBDIRJhYMQRLy40LTp+ZhmcZZW4QZyCt63nFoSt\nMMRmHFWax1mNK3mrATXRKTRBpbDsYL+kYCe+jV8/DpZjcajeptdxrJdwE9eBuDR1\nC+TSYSEcNhvdmiZ6gy5K8rzXU/e7Z4IAgqsmdz7fxvumII/O4fgIsxPaaP7zP0lq\nmEpKmKKigvWOu9cSxkpA8ZJrix7xWctkPShUBZS7QZGDAceW/0G5krvWr63fiQ+G\nvk9uG7g3SPpNd01d7Gph5s2XI1jDjSVbTgF3qsKcbowz0CNaFKOwLgd+3+R0n4dF\n2y/KykLNAgMBAAECggEAHiC64LcBRwSMFZGaDJLldk7IN8YC2X2W6DDCdidFIGbJ\n7WewxW9shaK51Jh0gSkdqCjIh213fNIWym6Eh/1/fLHcWcsHsysv5nsqZYy8/eY5\n1GYlZRiEMVy0VEug2yKpkJssSqgJvYI/29Cpt/+/lqEtD2Rem0/n373zhS+ROelu\nALrxfSKHO1Kn2NdCYRpej3mOmbafNs7LuIF7cxvQ6/g+Oz2Gbt+TnMMusHh4qtIW\nSrYV2fGlI3m9P/QbpAktCIgc6ineJz282rk6zg21Y5lp8kR0kvPvBlJ7aEbDi7pq\n30awsGzCJYKVN2pbpW/XshRm4c+4jS9xrSLgM5JzsQKBgQDdZx9uZ8ZNSQQCxqc+\na5IWqspJtpj7qlJbKXjZbKNZrcK2JoLAb0nqhDX4gDl3/bqJCaZ9rZqQmyIUAlPd\nPXyB1tTBPhCoEg4lFMUzLIQFyCQt3ButRzWpYpd3ippzMHheZmUhVJnpZZauu/88\nuXUNCP9Yj95RXt4/mHv4WDf9HQKBgQDdFEXf0unHLuHIKro7Mretm/SsrsRud1Nv\nwx9noWiAfBgRQs79OzzM52hdJiKqXyLcOV99HcgrLERVwNoNOcDME8XoJUQwxGdM\nYQbshB285nmo6Ha+Splg2WS5ZQZJ983FHHkS1GPQB3H9wczFlmRAGDQk71NsDjNK\n5d+LxaBdcQKBgHJux2cYCf2OHJ2WsYBotvQySCW7U+zXhoOJtuWh6fgDAF2HIBN4\nMdsdhIuxMoLbSJtluoDAxt+w3vc6kMAL9JtjP0m124QS+O6fgqFFg+M9I730QvXX\nlVu8Eo99uwCIb95SzDhi8r4YfL5Jes2XCXG4UcojagPipbp3BLRCXIXdAoGBALz4\nvj1y2Hd0oHPr6eH+GTkhrMQKY0eVYdGPdQGs21mwORZQCAQ3JWJ0jyXIGiuNRIv/\n0pps4ZPds8+lF/3kFuOaJzmm2SHiT/Xenf9/crfsPaPeiNlhhLdfO5SpQPXrBo1t\nKCSrPWItawegJ3vhcHHE/pVvqNwdS0TDNxEPbWNRAoGAF4+OeGhcYN4B9+m3IBCB\nosMq89kVD5Z5AA62++BlRPT6Mng0rRfVY1pAsj+te44ncouYxPv2esajIrhfPf0z\nXwsVQRB/HA5J1iDhh+9QI9zXLnW3lcqqg7+30iIVNh2wa1+s4AAQhArIpFR2NGC/\nI0T55QRvF++vj+1Zv/XSxuM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "energy@energyusageapplication.iam.gserviceaccount.com",
+  "client_id": "100577241018399944781",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/energy%40energyusageapplication.iam.gserviceaccount.com"
+}

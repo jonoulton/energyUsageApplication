@@ -1,0 +1,41 @@
+---
+apiVersion: "apps/v1"
+kind: "Deployment"
+metadata:
+  name: "rest-server"
+  namespace: "default"
+  labels:
+    app: "rest-server"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: "rest-server"
+  template:
+    metadata:
+      labels:
+        app: "rest-server"
+    spec:
+      containers:
+      - name: "rest-server"
+        image: "gcr.io/energyusageapplication/rest-server@sha256:05de42daf34aee3e34992aaa8e1e3cd9a45ee69dba80aa621aadcfecdb89fe9d"
+---
+apiVersion: "autoscaling/v2beta1"
+kind: "HorizontalPodAutoscaler"
+metadata:
+  name: "rest-server-hpa"
+  namespace: "default"
+  labels:
+    app: "rest-server"
+spec:
+  scaleTargetRef:
+    kind: "Deployment"
+    name: "rest-server"
+    apiVersion: "apps/v1"
+  minReplicas: 1
+  maxReplicas: 5
+  metrics:
+  - type: "Resource"
+    resource:
+      name: "cpu"
+      targetAverageUtilization: 80

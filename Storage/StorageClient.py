@@ -35,7 +35,7 @@ class StorageClient:
         :return: None
         """
         # Define the file name
-        temp_filename = dataDict['type']
+        temp_filename = dataDict['type'] + "_" + dataDict['dt']
 
         # Create the temporary file locally
         with open(temp_filename, 'w') as outfile:

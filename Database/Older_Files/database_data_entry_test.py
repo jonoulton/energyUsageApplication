@@ -7,7 +7,7 @@ It performs the following actions
 """
 
 import random
-from Database.DatabaseClient import DatabaseClient
+from DatabaseClient import DatabaseClient
 
 dbClient = DatabaseClient()
 
